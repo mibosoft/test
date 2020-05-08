@@ -1,5 +1,5 @@
 <?php
-if (version_compare(PHP_VERSION, '7.1.0', '<')) {
+if (version_compare(PHP_VERSION, '7.2.0', '<')) {
     exit('Sorry, this script does not run on a PHP version smaller than 5.6.0 !');
 }
 
